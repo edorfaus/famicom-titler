@@ -4408,10 +4408,29 @@
 		)
 		(uuid "ff315ee2-57aa-404c-9b47-0e631a914438")
 	)
-	(text_box "NOTE: reversed pin numbers.\n\nThe K connector seems to be using reversed numbering on this board as compared to on the I/O board.\nThe signals appear to be connected straight through on the pictures, but the pin numbers on the silkscreen are backwards. (At least for GND and VDD; TODO: check the rest.)"
+	(text_box "The buttons are laid out on the board like this:\n\nSW115 SW105 SW104 SW114 SW100\n\nSW116 SW106 SW113 SW103 SW110\nSW117 SW107 SW112 SW102 SW111 SW101\n\nSW120"
+		(exclude_from_sim no)
+		(at 35.56 30.48 0)
+		(size 49.53 17.78)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "623b568e-fcae-4aae-9bc3-8d74727aa58a")
+	)
+	(text_box "NOTE: reversed pin numbers.\n\nThe K connector seems to be using reversed numbering on this board as compared to on the I/O board.\nThe signals appear to be connected straight through on the pictures, but the pin numbers on the silkscreen are backwards."
 		(exclude_from_sim no)
 		(at 35.56 78.74 0)
-		(size 38.1 21.59)
+		(size 38.1 20.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -4426,6 +4445,25 @@
 			(justify left top)
 		)
 		(uuid "ec0a5c46-a38a-4cac-9ba1-08777db26603")
+	)
+	(text_box "NOTE: C101_1 and C101_2 were both called just \"C101\" on the original board.\n\nSince neither was populated, and they were in different locations, these footprints were probably added just in case they were needed, and turned out not to be."
+		(exclude_from_sim no)
+		(at 76.2 146.05 0)
+		(size 36.83 20.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f585b7b0-126d-43ea-b481-739807b6fef2")
 	)
 	(label "CLK"
 		(at 45.72 120.65 180)
@@ -7405,15 +7443,6 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "Called \"C101\" on the original board, but in two locations, so the Ref here adds a suffix to disambiguate."
-			(at 63.5 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "10decf8f-cf86-47d1-9abb-db84640ae1a7")
 		)
@@ -7610,15 +7639,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 63.5 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "Called \"C101\" on the original board, but in two locations, so the Ref here adds a suffix to disambiguate."
-			(at 63.5 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
