@@ -5430,7 +5430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF4021B.pdf"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TC4021BP_datasheet_en_20140301.pdf?did=16869&prodName=TC4021BP"
 			(at 238.76 58.42 0)
 			(effects
 				(font

@@ -5919,7 +5919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS157"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/datasheet_en_20140301.pdf?did=10768"
 			(at 226.06 119.38 0)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS157"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/datasheet_en_20140301.pdf?did=10768"
 			(at 226.06 60.96 0)
 			(effects
 				(font
